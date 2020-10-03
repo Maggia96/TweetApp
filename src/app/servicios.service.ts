@@ -12,15 +12,15 @@ export class ServiciosService {
   getTweet(cadena) {
     const param = new HttpParams()
       .set('cadena', cadena.toString());
-    return this.http.get<object[]>("https://boiling-escarpment-03863.herokuapp.com/api/tweets", { params: param });
+    return this.http.get<object[]>("http://127.0.0.1:8000/api/tweets", { params: param });
 
   }
 
   getHistorial() {
-    return this.http.get<object[]>("https://boiling-escarpment-03863.herokuapp.com/api/busquedas");
+    return this.http.get<object[]>("http://127.0.0.1:8000/api/busquedas");
   }
 
   postBusqueda(busqueda) {
-    return this.http.post<busqueda>("https://boiling-escarpment-03863.herokuapp.com/api/busquedas", { busqueda });
+    return this.http.post<busqueda>("http://127.0.0.1:8000/api/busquedas", { busqueda });
   }
 }
