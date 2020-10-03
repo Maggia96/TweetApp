@@ -1,0 +1,65 @@
+span {
+    margin-top: 13px;
+    color: white;
+}
+div {
+    padding: 7px;
+    display: flex;
+
+}
+.input_buscar{
+    width: 80%;
+    border: 1px solid #D3DBDF;
+    margin-top: 3px;
+    border-radius: 4px;
+
+}
+.encabezado{
+    padding-bottom: 13px;
+    text-align: center;
+    justify-content: center;
+    background-color: #D9EDF7;
+  
+
+}
+.twitter_logo{
+    width: 50px;
+    height: auto;
+    margin-right: 13px;
+    margin-left: -13px;
+}
+.tweet{
+    display: grid;
+}
+.tweet span{
+    font-size: 12px;
+    color: black;
+    margin-top: 4px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.user_pic{
+width: 70px;
+height: 70px;
+border-radius: 10px;
+}
+.user_name{
+    margin-bottom: 0px;
+}
+.contenido_principal{
+    width: 90%;
+    justify-content: center;
+    display: block;
+    position: absolute;
+    left: 5%;
+    border: 1px solid #DCDDDD;
+    margin-top: 1%;
+    border-radius: 6px;
+    margin-bottom: 3%;
+}
+@media(min-width:768px){
+  .contenido_principal{
+    width: 50%;
+    left: 25%;
+  }
+}

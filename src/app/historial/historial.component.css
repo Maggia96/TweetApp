@@ -1,0 +1,10 @@
+.media.text-muted.pt-3 {
+    text-align: center;
+    display: block;
+    border: 1px solid #D3DBDF;
+    border-radius: 24px;
+    margin: 2%;
+}
+strong{
+    font-size: 18px;
+}

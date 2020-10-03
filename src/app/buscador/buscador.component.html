@@ -1,0 +1,18 @@
+<body class="contenido_principal">
+  <div class="encabezado">
+    <img class="twitter_logo" src="https://logos-marcas.com/wp-content/uploads/2020/04/Twitter-Logo.png" alt="">
+    <input (keyup.enter)="getTweets()" class="block input_buscar" type="text" name="cadena" id="cadena"
+      [(ngModel)]="cadena">
+  </div>
+
+  <div class="main_block" *ngFor="let tweet of tweets">
+    <div>
+      <img class="user_pic" src="{{tweet.user.profile_image_url}}" alt="">
+    </div>
+    <div class="tweet">
+      <h5 class="user_name">{{tweet.user.name}}</h5>
+      <span>{{tweet.full_text}}</span>
+    </div>
+  </div>
+</body>
+<router-outlet></router-outlet>
