@@ -1,0 +1,4 @@
+// abrir consola con la ruta donde quieres descargar el proyecto ejecutar:  git clone https://github.com/Maggia96/TweetApp.git
+//luego entrar al directorio de la carpeta con cd TweetApp
+//ejecutart el comando npm install 
+// una vez descargados los archivos necesarios ejecutar ng serve -o para iniciar el servidor en http://localhost:4200  y abrir la ventana del navegador
